@@ -15,20 +15,19 @@ body, html {height: 100%;}
 .wrapper {box-sizing: border-box; height: 100%; overflow: auto; }
 
 
-a {text-decoration: none; color: #333; border-bottom: 3px solid #0068FF;}
-a:hover {color: #0068FF}
+a {text-decoration: none; color: #333; border-bottom: 3px solid #A3E6D4;}
+a:hover {color: #A3E6D4}
 p {font-weight: 200; font-size: 20px;}
 
-.name {font-family: Montserrat; font-size: 45px; text-transform: uppercase; font-weight: 900; padding: 12px; border: 4px solid #0068FF; color: #0068FF; display: inline-block; position: absolute; margin-bottom: 60px; top: 60px; left: 90px;}
+.name {font-family: Montserrat; font-size: 45px; text-transform: uppercase; font-weight: 900; padding: 12px; border: 4px solid #A3E6D4; color: #A3E6D4; display: inline-block; position: absolute; margin-bottom: 60px; top: 60px; left: 90px;}
 
 .container {margin: 0 auto; width: 700px; padding: 120px 12px 50px; overflow: auto;}
 article {padding: 60px;}
 article::before {
-  content: '\2601';
   position: relative;
   top: 0;
   left: -30px;
-  color: #0068FF;
+  color: #A3E6D4;
   font-size: 24px;
 }
 article::after {
@@ -36,7 +35,7 @@ article::after {
   position: relative;
   top: 40px;
   left: 300px;
-  color: #0068FF;
+  color: #A3E6D4;
   font-size: 44px;
 }
 hr {border-bottom: 3px solid #0068FF;}
